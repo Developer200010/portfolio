@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/62433c815d.js" crossorigin="anonymous"></script>
+    <title>CV-INFO.</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">Portfolio</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+  
+
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href=""></a>
+    </nav>
+</header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Chandan Vishwakarm</h1>
+            <h3>And I'm a <span class="change"></span></h3>
+            <P>Who is passionate, enthusiastic, and love to learn new tools and technology which help to boost the work and reduce the time complexity.</P>
+        
+        <div class="social">
+            <a href="https://www.linkedin.com/in/chandan-vishwakarma-38ba942bb/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/chandanVisw01" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/Developer200010" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="cv.pdf" download class="btn">Download cv</a>
+    </div>
+    <div class="home-img">
+        <img src="/img/1.jpeg" alt="">
+    </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/img/1.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT<span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>I love Design, Technology, and Story!</p>
+            <a href="" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+               <h3>Frontend Developer <br> <bold class="tool">Tools &#771; </bold> <span>React.js</span> <span class="span">||</span> <span>HTML & CSS</span></h3>
+               <a href="" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-pen-nib"></i>
+                <h3>UI/UX Designer 
+                <br> <bold class="tool">Tools &#771; </bold> <span>Figma</span> <span class="span">||</span> <span>Canva</span> <span class="span">||</span> <span>Corel</span></h3>
+
+               <a href="" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+               <h3>Backend Developer <br> <bold class="tool">Tools &#771; </bold> <span>Node.js</span> <span class="span">||</span> <span>Express.js</span></h3>
+               <a href="" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span> </h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="" alt="">
+                <div class="portfolio-layer">
+                    <h4>MovieSite</h4>
+                    <p>MovieSite help user to seen all the details of a movie</p>
+                    <a href="https://movie-site-tau-silk.vercel.app/" target="_blank"><i class="fa-regular fa-share-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="" alt="">
+                <div class="portfolio-layer">
+                    <h4>githubUserDetails</h4>
+                    <p>This site help user to fetch there repository details with there username and languages used.</p>
+                    <a href="https://fetching-git-user-data.vercel.app/" target="_blank"><i class="fa-regular fa-share-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="" alt="">
+                <div class="portfolio-layer">
+                    <h4>FoodRecipe API</h4>
+                    <p>It help to get the data of Recipe required by user</p>
+                    <a href="https://food-recipe-app-jade.vercel.app/"><i class="fa-regular fa-share-from-square"></i>
+                    </div></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="/user" method="post">
+            <div class="input-box">
+                <input type="text" name="username" id="" placeholder="Full Name">
+                <input type="email" name="email" id="" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" id="" placeholder="Mobile Number">
+                <input type="text" name="subject" id="" placeholder="Email Subject">
+            </div>
+            <textarea name="details" id="">Your Message</textarea>
+            <input type="submit" name="" id="" value="Send Message" class="btn">
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @CHANDAN VISHWAKARMA || All Right Reserved </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        const typed = new Typed(".change",{
+            strings:["Web Developer", "Web Designer", "Backend Developer","Prompt Engineer", "BeatBoxer"],
+            typeSpeed: 100,
+            backSpeed:100,
+            loop:true
+        })
+        </script>
+  </body>
+</html>
